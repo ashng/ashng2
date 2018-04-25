@@ -1,0 +1,61 @@
+font-family: 'Asap', sans-serif;
+font-family: 'Noto Serif', serif;
+
+html{
+  overflow: hidden;
+
+}
+
+html, body {
+  height:100%;
+
+}
+
+body {
+  background-color: rgb(255,242,220);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Asap', sans-serif !important;
+}
+
+
+
+.landing-image-container{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-image{
+  max-width: 70vw;
+  margin-right: 4%;
+
+}
+
+.bottom-half{
+  background-color: rgb(244,240,240);
+  font-family: 'Noto Serif', serif;
+  height: 62vh;
+}
+
+.dfn-container{
+  max-width: 90vw;
+  margin-top:9%;
+
+
+}
+
+.dfn-name{
+  font-family: 'Asap', bold;
+  color: rgb(255, 222, 22);
+  font-size: 4rem;
+  text-shadow: -4px 4px white;
+  position: absolute;
+  top: 37%;
+
+}
+
+.dfn-pronunciation{
+top: 30%;
+}
